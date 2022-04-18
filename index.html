@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado de Tareas</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!-- Goggle Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
+
+</head>
+
+<body style="background-color: rgba(39, 144, 144, 0.574);">
+
+    <div class="row justify-content-center">
+        <div class="col-xl-4 col-lg-6 col-md-8 col-sm-10 bg-light panel">
+            <h1 class="display-4">Listado de Tareas</h1>
+            <hr><br>
+            <div class="input-group mb-3">
+                <input type="text" id="txtBox" class="form-control" placeholder="Tarea a realizar"
+                    aria-label="Recipient's username" aria-describedby="button-addon2">
+                <button class="btn btn-outline-secondary" type="button" id="btnAgregar">Agregar</button>
+            </div>
+            <ul class="list-group list-group-flush" id="listArea">
+                <!--Zona a insertar html desde JQuery-->
+                <li class="list-group-item" id="listado">
+                    <input type="checkbox" id="check">antrada nueva<button type="button" id="btnBorrar"
+                        class="btn btn-outline-danger">X</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+    <!-- Scripts JQuery y SweetAlert -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="scripts.js"></script>
+
+</body>
+
+</html>

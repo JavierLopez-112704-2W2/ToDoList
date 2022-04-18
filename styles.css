@@ -1,0 +1,16 @@
+#listado{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: rgba(232, 232, 239, 0.17);
+    font-size:  20px;    
+}
+.panel{ 
+    margin-top: 20%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 3px 3px 2px 2px rgb(0, 0, 0);
+}
+
+#btnBorrar{
+    font-size: 10px;
+    font-weight: bold;
+}
